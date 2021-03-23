@@ -11,6 +11,9 @@
     "logo": "https://raw.githubusercontent.com/n8n-io/n8n/master/docs/images/n8n-logo.png",
     "success_url": "/",
     "stack": "container",
+    "scripts": {
+        "start": "sh start.sh"
+    },
     "env": {
       "N8N_BASIC_AUTH_ACTIVE": {
         "description": "Protect n8n setup with basic authentication.",
